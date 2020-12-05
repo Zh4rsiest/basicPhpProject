@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "213.136.82.119",
+  "target": "/var/www/mondano.hu",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "zsombor",
+  "password": "TThzk55KD420",
+  "watch": [],
+  "transport": "scp",
+  "port": "927"
+}

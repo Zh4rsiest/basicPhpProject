@@ -1,0 +1,7 @@
+node_modules
+vendor
+_dokumentumok
+.DS_Store
+config/config.php
+config/database.php
+config/mail.php

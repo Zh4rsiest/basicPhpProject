@@ -1,0 +1,17 @@
+{
+    "name": "baloghzsombor/basicPhpProject",
+    "description": "Basic Php project setup",
+    "authors": [
+        {
+            "name": "Zsombor Balogh",
+            "email": "baloghzsombor94@gmail.com"
+        }
+    ],
+    "autoload": {
+      "files": ["config/database.php", "config/mail.php", "config/config.php", "routes/web.php"],
+      "classmap": ["App"]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}

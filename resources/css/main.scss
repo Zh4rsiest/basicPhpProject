@@ -1,0 +1,52 @@
+@import "./variables.scss";
+@import "./loader.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  nav {
+    // background-color: #fff;
+
+    a {
+      color: $linkColor;
+      cursor: pointer;
+
+      &:hover {
+        color: $linkHoverColor;
+      }
+    }
+  }
+
+  #home {
+    #users {
+      .user-wrapper {
+        border: 1px solid $borderColor;
+
+        h5:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    #requests {
+      .request-wrapper {
+        border: 1px solid $borderColor;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  #addRequest {
+    .request-wrapper {
+      border: 1px solid $borderColor;
+    }
+  }
+}
+
+// adamtrixler@mailinator.com
